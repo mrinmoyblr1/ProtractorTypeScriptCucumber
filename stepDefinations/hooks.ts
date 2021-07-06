@@ -5,10 +5,10 @@ Before(function () {
 });
 Before({tags: "@AngularTesting"}, function () {
     browser.manage().window().maximize();
-    console.log("This is under Before Hooks for @AngularTesting....")
+    console.log("This is under Before Hooks for @AngularTesting......")
 });
 After({tags: "@AngularTesting"}, function () {  
-  console.log(".........The Test is Completed..........")
+  console.log(".............The Test is Completed..........")
 });
 Before({tags: "@calculatorTesting"}, function () {
     console.log("I need to execute this one First")
